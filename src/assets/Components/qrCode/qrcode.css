@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.qr-container{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+.qr-container h1{
+color: #5fdaed;
+text-align: center;
+}
+.qr-container h1 span{
+color: #d7bcf5;
+}
+.qrGroup{
+  display: flex;
+  flex-direction: column;
+}
+.imgAlign{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  
+}
+
+.imgAlign img{
+  padding: 5px;
+}
+
+.qrGroup label{
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.qrGroup input{
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 2px solid #5fdaed;
+  outline: none;
+}
+
+.qrGroup input:hover,.qrGroup input:focus{
+  border: 2px solid #d7bcf5;
+}
+
+.buttonGroup{
+  gap:10px;
+  display: flex;
+}
+
+.buttonGroup .primary{
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid;
+    background: #5fdaed;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.buttonGroup .primary:hover{
+  border: 1px solid #d7bcf5;
+  background: #d7bcf5;
+}
+
+.buttonGroup .primary.outline{
+  background: transparent;
+  color: #5fdaed;
+  border: 1px solid #5fdaed;
+}
+
+.buttonGroup .primary.outline:hover{
+  color: #d7bcf5;
+  border: 1px solid #d7bcf5;
+}
