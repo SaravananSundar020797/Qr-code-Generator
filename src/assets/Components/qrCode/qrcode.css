@@ -16,6 +16,7 @@ color: #d7bcf5;
 .qrGroup{
   display: flex;
   flex-direction: column;
+  padding: 0 10px;
 }
 .imgAlign{
   display: flex;
