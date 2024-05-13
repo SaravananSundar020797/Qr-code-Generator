@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import './qrcode.css'
 
 const QrCode = () => {
-  const [img,setImg] = useState("./public/img/qrcode.gif");
+  const [img,setImg] = useState("./img/qrcode.gif");
   const [isLoading,setIsLoading] = useState(false);
   const [userData,setUserData] = useState("");
   const [qrSize,setQRSize] = useState("200");
