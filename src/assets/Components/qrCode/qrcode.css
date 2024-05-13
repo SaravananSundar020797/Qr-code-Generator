@@ -54,6 +54,8 @@ color: #d7bcf5;
 .buttonGroup{
   gap:10px;
   display: flex;
+  padding: 0 10px;
+  justify-content: end;
 }
 
 .buttonGroup .primary{
